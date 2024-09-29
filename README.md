@@ -22,8 +22,8 @@ Bienvenue dans **Sakura Spirit**, un jeu d'aventure et de plateforme où vous in
 
 # Note
 
-- Les Lanternes ne se sauvegardent pas dans la Game Instance, elles sont juste la pour décoré et occupé le joueur qui pourra les allumer à chaque passage, d'autre fonctionnalité sont envisagé pour les lanternes pour le prochain rendu mais elle ne rentre pas dans le scope actuel.
-- Le Level Design est simple pour démontrer le concept, le but est de faire une démo de l'ambiance et du gameplay, des énigmes plus poussées et de nouvelles mécanniques seront certainement ajoutées pour le prochain rendu.
+- Les lanternes ne se sauvegardent pas dans la Game Instance, elles sont juste là pour décorer et occupé le joueur qui pourra les allumer à chaque passage, d'autre fonctionnalité sont envisagé pour les lanternes pour le prochain rendu, mais elle ne rentre pas dans le scope actuel.
+- Le Level Design est simple pour démontrer le concept, le but est de faire une démo de l'ambiance et du gameplay, des énigmes plus poussées et de nouvelles mécaniques seront certainement ajoutées pour le prochain rendu.
 
 ## Installation
 
