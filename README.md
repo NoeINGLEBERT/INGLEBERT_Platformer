@@ -5,28 +5,42 @@ Bienvenue dans **Sakura Spirit**, un jeu d'aventure et de plateforme où vous in
 ## Contrôles du Jeu
 
 - **Espace** : Rentrer dans le sol tel un fantôme pour ressortir avec de l'élan
-- **E** : Allumer avec les lanternes ou ramasser les pousses de Sakura
+- **E** : Interaction (Sonner le gong, poser des esprits sur les lanternes, ramasser des pousses)
 - **Clic droit** : Viser
 - **Clic gauche** : Tirer des noyaux de cerises pour planter des pousses de Sakura qui, dans le niveau 2, évolueront en plateformes pour accéder à de nouvelles zones
 
 ## Objectifs du Jeu
 
-- Allumez les lanternes et guidez les esprits
+- Ouvrez la porte pour finir l'enigme
   
-## Comment Jouer
+# Liste des interactions
 
-1. Utilisez les contrôles de base pour explorer les environnements.
-2. Interagissez avec les lanternes pour débloquer des mécanismes cachés.
-3. Utilisez vos noyaux de cerises pour faire pousser des pousses de Sakura, qui vous aideront à accéder à des zones inexplorées dans les niveaux supérieurs.
-4. Progressez à travers les niveaux tout en récoltant des esprits.
+- Esprits : Collectibles que le joueur peut ramasser simplement en les touchant.
+- Gong : Lorsqu'il est frappé, il émet deux vagues qui partent dans des directions opposées.
+- Cerises : Collectibles ramassables qui servent aussi de munitions pour planter des pousses de Sakura.
+- Porte Torii : Permet au joueur de voyager dans le temps, du passé au futur et vice versa.
+- Pousses de Sakura : Plantées en tirant des cerises. Une pousse dans le passé deviendra un arbre dans le futur.
+- Vagues : Se déplacent le long des murs et peuvent passer à travers les portes Torii pour voyager entre les époques. Elles font fleurir les cerisiers en passant. Si deux vagues se rencontrent, elles disparaissent.
+- Porte : S'ouvrent si les cerisiers autour sont en fleur.
+- Lanternes : Peuvent être possédées par un esprit. Elles absorbent alors les vagues pendant un certain temps, ce qui permet de retarder leur trajet et ainsi de mieux contrôler où et quand les vagues se rencontreront.
 
-# Note
+# Solution de l'enigme
 
-- Les lanternes ne se sauvegardent pas dans la Game Instance, elles sont juste là pour décorer et occupé le joueur qui pourra les allumer à chaque passage, d'autre fonctionnalité sont envisagé pour les lanternes pour le prochain rendu, mais elle ne rentre pas dans le scope actuel.
-- Le Level Design est simple pour démontrer le concept, le but est de faire une démo de l'ambiance et du gameplay, des énigmes plus poussées et de nouvelles mécaniques seront certainement ajoutées pour le prochain rendu.
+1. Récupérez les 3 esprits accessible dès le départ
+2. Récupérez la cerise et plantez la de tel sorte à pouvoir atteindre la plateforme en haut dans le futur
+3. Dans le futur, utilisez l'arbre qui vient de pousser pour atteindre le dernier esprit
+4. Toujours dans le futur, posez les esprits sur les 2 lanternes de taille moyenne
+5. Retournez dans le passé, récupérez la cerise et plantez la à côté de la porte de sortie de tel sorte à ce qu'elle remplace l'arbre mort
+6. Placez les 2 esprits restant sur la grande et petite lanterne à droite du gong
+7. Sonnez le gong et attendez que les vagues atteignent la porte.
 
 ## Installation
 
 1. Clonez le dépôt GitHub : 
    ```bash
    git clone https://github.com/NoeINGLEBERT/INGLEBERT_Platformer.git
+
+# Note
+
+- Les commits post-date de rendu si il y en a seront juste des patchs de bug fixing mineur (notamment tout ce qui est visuel), prennez les si vous le souhaitez, la logique algorithmique ne sera pas modifié seulement les bugs d'animation et de polish
+- Spammer le gong cause des bugs dans 99% des cas, et pour le coup je pourrais pas bug fixer ça sans toucher à la logique donc je conseil de ne pas l'utiliser trop souvent pour éviter de rendre l'enigme insolvable
