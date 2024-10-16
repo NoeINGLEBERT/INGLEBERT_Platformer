@@ -13,7 +13,7 @@ Bienvenue dans **Sakura Spirit**, un jeu d'aventure et de plateforme où vous in
 
 - Ouvrez la porte pour finir l'enigme
   
-# Liste des interactions
+## Liste des interactions
 
 - Esprits : Collectibles que le joueur peut ramasser simplement en les touchant.
 - Gong : Lorsqu'il est frappé, il émet deux vagues qui partent dans des directions opposées.
@@ -24,7 +24,7 @@ Bienvenue dans **Sakura Spirit**, un jeu d'aventure et de plateforme où vous in
 - Porte : S'ouvrent si les cerisiers autour sont en fleur.
 - Lanternes : Peuvent être possédées par un esprit. Elles absorbent alors les vagues pendant un certain temps, ce qui permet de retarder leur trajet et ainsi de mieux contrôler où et quand les vagues se rencontreront.
 
-# Solution de l'enigme
+## Solution de l'enigme
 
 1. Récupérez les 3 esprits accessible dès le départ
 2. Récupérez la cerise et plantez la de tel sorte à pouvoir atteindre la plateforme en haut dans le futur
@@ -40,7 +40,7 @@ Bienvenue dans **Sakura Spirit**, un jeu d'aventure et de plateforme où vous in
    ```bash
    git clone https://github.com/NoeINGLEBERT/INGLEBERT_Platformer.git
 
-# Note
+## Note
 
 - Les commits post-date de rendu si il y en a seront juste des patchs de bug fixing mineur (notamment tout ce qui est visuel), prennez les si vous le souhaitez, la logique algorithmique ne sera pas modifié seulement les bugs d'animation et de polish
 - Spammer le gong cause des bugs dans 99% des cas, et pour le coup je pourrais pas bug fixer ça sans toucher à la logique donc je conseil de ne pas l'utiliser trop souvent pour éviter de rendre l'enigme insolvable
