@@ -32,7 +32,7 @@ Bienvenue dans **Sakura Spirit**, un jeu d'aventure et de plateforme où vous in
 4. Toujours dans le futur, posez les esprits sur les 2 lanternes de taille moyenne
 5. Retournez dans le passé, récupérez la cerise et plantez la à côté de la porte de sortie de tel sorte à ce qu'elle remplace l'arbre mort
 6. Placez les 2 esprits restant sur la grande et petite lanterne à droite du gong
-7. Sonnez le gong et attendez que les vagues atteignent la porte.
+7. Sonnez le gong et attendez que les vagues atteignent la porte
 
 ## Installation
 
