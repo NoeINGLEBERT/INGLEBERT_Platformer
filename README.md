@@ -42,5 +42,4 @@ Bienvenue dans **Sakura Spirit**, un jeu d'aventure et de plateforme où vous in
 
 ## Note
 
-- Les commits post-date de rendu si il y en a seront juste des patchs de bug fixing mineur (notamment tout ce qui est visuel), prennez les si vous le souhaitez, la logique algorithmique ne sera pas modifié seulement les bugs d'animation et de polish
 - Spammer le gong cause des bugs dans 99% des cas, et pour le coup je pourrais pas bug fixer ça sans toucher à la logique donc je conseil de ne pas l'utiliser trop souvent pour éviter de rendre l'enigme insolvable
